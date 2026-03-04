@@ -36,13 +36,10 @@ def intro():
     print("ENTER 3 TO BOARD")
     input(choice)
     if choice == 1:
-        if __name__ == "__main__":   # main menu to respective choices
             game()
     elif choice == 2:
-        if __name__ == "__main__":
             background()
     elif choice == 3:
-        if __name__ == "__main__":
             end()
 
 
@@ -66,8 +63,11 @@ def end():
 
                         #yoyoyoyoyoyo (comment test for update across device(67))
                         # test comment
-
+if __name__ == "__main__":
 intro()
+
+
+
 
 
 
