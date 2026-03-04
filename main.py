@@ -1,5 +1,19 @@
 import time
 def intro():
+    print("    _------------_      ")
+    print("   /||||||||||||||\                    ")
+    print("  /|||||||||||||||||\               ")
+    print("  |||||||||||||||||||\                   ")
+    print("   \|||||||/                  ")
+    print("     \|||||\                  ")
+    print("       \|||||\             ")
+    print("         \||||||\       ")
+    print("         /|||||||||\         " )
+    print("        /||||||||||||                 ")
+    print("  |||||||||||||||||||                    ")
+    print("  |||||||||||||||||/                         ")
+    print("  |||||||||||||                          ")
+
     choice = 0
     print("Welcome to (insert game name)!")
     name = input("What is your name? ")
