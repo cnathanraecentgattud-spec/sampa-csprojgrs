@@ -1,4 +1,4 @@
-import time
+import time # for timed outputs
 def intro():
     print("    _------------_      ")
     print("   /||||||||||||||\                    ")
@@ -18,7 +18,7 @@ def intro():
     print("Welcome to (insert game name)!")
     name = input("What is your name? ")
     time.sleep(2)
-    print(f"{name}..")
+    print(f"{name}..")   # name input
     print("...")
     time.sleep(2)
     print("born april 11, 1954..")
@@ -29,28 +29,38 @@ def intro():
     print("now, where would we like to begin?")
     time.sleep(1)
     print()
-    print("ENTER 1 TO BE ENLIGHTENED")
+    print("ENTER 1 TO BE ENLIGHTENED")    # choice display
     time.sleep(1)
     print("ENTER 2 TO REMINISCE")
     time.sleep(1)
     print("ENTER 3 TO BOARD")
     input(choice)
     if choice == 1:
-        game()
+        if __name__ == "__main__":   # main menu to respective choices
+            game()
     elif choice == 2:
-        background()
+        if __name__ == "__main__":
+            background()
     elif choice == 3:
-        end()
+        if __name__ == "__main__":
+            end()
 
 
 def game():
-    print("")
+    print("ok")
 
 def background():
     print("i see..")
+    time.sleep(1)
+    print("you forgot your origins?")
+    time.sleep(1)
+    print("...")
+    time.sleep(2)
+    print("no matter, i shall grant what is due of me..")
+    print("")
 
 def end():
-    print("")
+    print("oooooooookkkkk")
 
 
 
@@ -58,9 +68,7 @@ def end():
                         # test comment
 
 intro()
-game()
-background()
-end()
+
 
 
 
