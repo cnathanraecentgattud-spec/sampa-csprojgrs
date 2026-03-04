@@ -14,7 +14,6 @@ def intro():
     print("  |||||||||||||||||/                         ")
     print("  |||||||||||||                          ")
 
-    choice = 0
     print("Welcome to (insert game name)!")
     name = input("What is your name? ")
     time.sleep(2)
@@ -34,27 +33,52 @@ def intro():
     print("ENTER 2 TO REMINISCE")
     time.sleep(1)
     print("ENTER 3 TO BOARD")
-    input(choice)
-    if choice == 1:
+    time.sleep(1)
+    choice = input("remember, time waits for no one..!")
+    if choice == "1":
             game()
-    elif choice == 2:
-            background()
-    elif choice == 3:
+    elif choice == "2":
+            background(name)
+    elif choice == "3":
             end()
 
 
 def game():
     print("ok")
 
-def background():
+def background(name):
+    time.sleep(2)
     print("i see..")
     time.sleep(1)
     print("you forgot your origins?")
-    time.sleep(1)
+    time.sleep(2)
     print("...")
     time.sleep(2)
     print("no matter, i shall grant what is due of me..")
+    time.sleep(2)
+    print("...")
+    time.sleep(1)
+    print("which of the ■■■'s rays shall i shine upon you?")
+    print("the wake of DAWN (1)")
+    print("the bask of NOON (2)")
+    print("the last of DUSK (3)")
+    time.sleep(1)
     print("")
+    print(f"DAWN: is {name} really my name?")
+    time.sleep(1)
+    print(f"NOON: what put me in that mortal position?")
+    time.sleep(1)
+    print(f"DUSK: how did i end up here?")
+    time.sleep(2)
+    print("...")
+    time.sleep(2)
+    print("STYGIAN: who are you?")
+    time.sleep(2)
+    ray = input("go on..")
+    if ray == "1":
+        time.sleep(1)
+        print("then shall you wish to change it then?")
+
 
 def end():
     print("oooooooookkkkk")
@@ -64,7 +88,8 @@ def end():
                         #yoyoyoyoyoyo (comment test for update across device(67))
                         # test comment
 if __name__ == "__main__":
-intro()
+
+    intro()
 
 
 
