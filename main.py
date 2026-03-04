@@ -22,16 +22,31 @@ def intro():
     print("ENTER 3 TO BOARD")
     input(choice)
     if choice == 1:
-        def test
-            elif choice == 2:
-                def test
-                    elif choice == 3:
-                        def test
+        game()
+    elif choice == 2:
+        background()
+    elif choice == 3:
+        end()
+
+
+def game():
+    print("")
+
+def background():
+    print("i see..")
+
+def end():
+    print("")
+
+
 
                         #yoyoyoyoyoyo (comment test for update across device(67))
                         # test comment
-                        
+
 intro()
+game()
+background()
+end()
 
 
 
