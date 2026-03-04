@@ -44,7 +44,7 @@ def intro():
 
 
 def game():
-    print("ok")
+    print("WIP")
 
 def background(name):
     time.sleep(2)
@@ -77,11 +77,15 @@ def background(name):
     ray = input("go on..")
     if ray == "1":
         time.sleep(1)
-        print("then shall you wish to change it then?")
+        name_change = input("then shall you wish to change it then?")
+        if name_change == "1":
+            name = input("then by virtue of ■■■■, state your desired name: ")
+            print(f"welcome to the fork again, {name}.")
+
 
 
 def end():
-    print("oooooooookkkkk")
+    print("WIP")
 
 
 
