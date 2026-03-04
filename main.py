@@ -37,6 +37,13 @@ def game():
 
 def background():
     print("i see..")
+    time.sleep(1)
+    print("you forgot your origins?")
+    time.sleep(1)
+    print("...")
+    time.sleep(2)
+    print("no matter, i shall grant what is due of me..")
+    print("")
 
 def end():
     print("oooooooookkkkk")
