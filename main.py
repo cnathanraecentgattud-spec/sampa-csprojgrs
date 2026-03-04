@@ -28,7 +28,7 @@ def intro():
                     elif choice == 3:
                         def test
 
-                        #yoyoyoyoyoyo (comment test for update across device)
+                        #yoyoyoyoyoyo (comment test for update across device(67))
                         
 intro()
 
