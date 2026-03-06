@@ -1,10 +1,10 @@
-["1. "]
+
 
 
 import time # for timed outputs
 def intro():
     print("    _------------_      ")
-    print("   /||||||||||||||\                    ")
+    print("   /||||||||||||||\                    ")    # ascii art | TO BE FINISHED LATER ON
     print("  /|||||||||||||||||\               ")
     print("  |||||||||||||||||||\                   ")
     print("   \|||||||/                  ")
@@ -17,11 +17,16 @@ def intro():
     print("  |||||||||||||||||/                         ")
     print("  |||||||||||||                          ")
 
-    print("Welcome to (insert game name)!")
+    print("Welcome to STEM Career Picker: Rebirth!")
     print("This game will try its best to determine a stable STEM job for you \n based on your experiences and opinions on things.")
+    time.sleep(1)
+    print("The gist of this fun test is that you'll be answering multiple questions \n with either the first or second prompt \n using 1 and 2 as responses")    # main intro and explanation w/ purpose
+    time.sleep(3)
+    print("Now, let us start with the first fundamental question of the test.. being....!!!!")  # last of bait and switch print statements
+    time.sleep(1)
     name = input("What is your name? ")
     time.sleep(2)
-    print(f"{name}..")   # name input
+    print(f"{name}..")   # name inputting
     print("...")
     time.sleep(2)
     print("born april 11, 1954..")
@@ -32,28 +37,96 @@ def intro():
     print("now, where would we like to begin?")
     time.sleep(1)
     print()
-    print("ENTER 1 TO BE ENLIGHTENED")    # choice display
+    print("ENTER 1 TO BE ENLIGHTENED")    # choice displays for the user
     time.sleep(1)
     print("ENTER 2 TO REMINISCE")
-    time.sleep(1)
+    time.sleep(1)    # pauses for effect
     print("ENTER 3 TO BOARD")
     time.sleep(1)
     choice = input("remember, time waits for no one..!")
     if choice == "1":
             game()
     elif choice == "2":
-            background(name)
+            background(name)    # main fork to the three options
     elif choice == "3":
             end()
 
 
 def game():
     print("a free reading i see..")
-	print("the divination of ■■■■ tells me to get to know you a bit more.")
-	print("-"*50)
-	num =("do you enjoy he process of problem solving?)
+    print("the divination of ■■■■ tells me to get to know you a bit more.")
+    print("-"*50)   # separator for readability
+    print("PRESS 1 TO AGREE")
+    print("PRESS 2 TO DISAGREE")   # constant directory to prevent any losses due to not knowing controls
+    num = input("do you enjoy he process of problem solving?")
+    if num == "1":
+        print("PRESS 1 FOR FIRST OPTION")
+        print("PRESS 2 FOR SECOND OPTION")
+        num = input("problem solving through creating or thinking?")
+        if num == "1":
+            print("PRESS 1 FOR FIRST OPTION")
+            print("PRESS 2 FOR SECOND OPTION")
+            num = input("rather coding or building?")
+            if num == "1":
+                print("the STEM aligned course you could have been in your premature mortal life would be..")
+                print(courses[0]["specialty"]) # result of test based on the list of dictionaries at the bottom
+            else:
+                print("PRESS 1 FOR FIRST OPTION")
+                print("PRESS 2 FOR SECOND OPTION")
+                num = input("a specific or general field?")
+                if num == "1":
+                    print("the STEM aligned course you could have been in your premature mortal life would be..")
+                    print(courses[1]["specialty"])
+                else:
+                    print("the STEM aligned course you could have been in your premature mortal life would be..")
+                    print(courses[2]["specialty"])
+        else:
+            print("PRESS 1 FOR FIRST OPTION")
+            print("PRESS 2 FOR SECOND OPTION")
+            num = input("working with nature or with numbers?")
+            if num == "1":
+                print("PRESS 1 FOR FIRST OPTION")
+                print("PRESS 2 FOR SECOND OPTION")
+                num = input("outside world, or in a laboratory?")
+                if num == "1":
+                    print("the STEM aligned course you could have been in your premature mortal life would be..")
+                    print(courses[3]["specialty"])
+                else:
+                    print("the STEM aligned course you could have been in your premature mortal life would be..")
+                    print(courses[6]["specialty"])
+            else:
+                print("PRESS 1 FOR FIRST OPTION")
+                print("PRESS 2 FOR SECOND OPTION")
+                print("do you en■■■ ■■ ■■■■■■■ ■■■ ■■■■■■")    # area to snap back to lore | as much as possible pls don't remove w/o direction from nathan - tnx
+                time.sleep(2)
+                print("...")
+                time.sleep(1)
+                print("sorry, the ■■■■■ malfunctioned.")
+                num = input("do you prefer familiarization or active memorization and application?")
+                if num == "1":
+                    print("PRESS 1 TO AGREE")
+                    print("PRESS 2 TO DISAGREE")
+                    num = input("identifying structures or understanding & predicting?")
+                    if num == "1":
+                        print("the STEM aligned course you could have been in your premature mortal life would be..")
+                        print(courses[7]["specialty"])
+                    else:
+                        print("the STEM aligned course you could have been in your premature mortal life would be..")
+                        print(courses[4]["specialty"])
+                else:
+                    print("the STEM aligned course you could have been in your premature mortal life would be..")
+                    print(courses[5]["specialty"])
 
-def background(name):
+
+
+
+
+
+
+
+
+
+def background(name):  # settings function
     time.sleep(2)
     print("i see..")
     time.sleep(1)
@@ -65,28 +138,28 @@ def background(name):
     time.sleep(2)
     print("...")
     time.sleep(1)
-    print("which of the ■■■'s rays shall i shine upon you?")
+    print("which of the ■■■'s rays shall i shine upon you?") # direction for each input number
     print("the wake of DAWN (1)")
     print("the bask of NOON (2)")
     print("the last of DUSK (3)")
     time.sleep(1)
     print("")
-    print(f"DAWN: is {name} really my name?")
+    print(f"DAWN: is {name} really my name?") # name changer
     time.sleep(1)
-    print(f"NOON: what put me in that mortal position?")
+    print(f"NOON: what put me in that mortal position?") # lore story (WIP)
     time.sleep(1)
-    print(f"DUSK: how did i end up here?")
+    print(f"DUSK: how did i end up here?") # origin story (WIP)
     time.sleep(2)
     print("...")
     time.sleep(2)
-    print("STYGIAN: who are you?")
+    print("STYGIAN: who are you?") # more lore (WIP) | consult nathan on this - tnx
     time.sleep(2)
     ray = input("go on..")
     if ray == "1":
         time.sleep(1)
         name_change = input("then shall you wish to change it then?")
         if name_change == "1":
-            name = input("then by virtue of ■■■■, state your desired name: ")
+            name = input("then by virtue of ■■■■, state your desired name: ")      # elif == 2 is within nathan's email, pls refer to him for direction - tnx
             print(f"welcome to the fork again, {name}.")
     elif ray == "3":
         time.sleep(1)
@@ -105,10 +178,10 @@ def background(name):
 
 
 def end():
-    print("WIP")
+    print("WIP")  # quitting mechanism (WIP)
 
 
-import json
+import json  # the list of dictionaries that'll be transposed into a separate json file later on | to be coordinated with venize for more info - tnx
 
 courses = [
 	{ 
@@ -174,13 +247,19 @@ try:
        filename = "courses.json"
     
        with open(filename, 'w') as file:
-        json.dump(courses, file, indent=4)
+        json.dump(courses, file, indent=4)    # to be used for the later json transfer
+
+        # error handling
+except FileNotFoundError:
+    print("Error: The file 'data.json' was not found.")
+except json.JSONDecodeError as e:
+    print(f"Failed to decode JSON: {e}")
 
 
 
                         #yoyoyoyoyoyo (comment test for update across device(67))
                         # test comment
-if __name__ == "__main__":
+if __name__ == "__main__": # safeguard for the forks mentioned earlier (the functions)
 
     intro()
 
