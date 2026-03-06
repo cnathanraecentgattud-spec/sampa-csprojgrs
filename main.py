@@ -48,7 +48,10 @@ def intro():
 
 
 def game():
-    print("WIP")
+    print("a free reading i see..")
+	print("the divination of ■■■■ tells me to get to know you a bit more.")
+	print("-"*50)
+	num =("do you enjoy he process of problem solving?)
 
 def background(name):
     time.sleep(2)
