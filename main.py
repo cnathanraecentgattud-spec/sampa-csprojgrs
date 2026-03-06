@@ -125,36 +125,36 @@ courses = [
     {
     "specialty": "Engineering",
     "person": "Engineer",
-    "grd11_subj": ["Mathematics 5", "Physics Core (Level 1 or 2)", "Chemistry Core (Level 1 or 2) - For Chemical Engineering", "Biophysics Core (Level 1 or 2) - For Biomedical/Environmental Engineering", "Engineering Science elective", "Technology elective", "DTech elective"],
-    "grd12_subj": ["Mathematics 5", "Physics Core (Level 1 or 2)", "Chemistry Core (Level 1 or 2) - For Chemical Engineering", "Biophysics Core (Level 1 or 2) - For Biomedical/Environmental Engineering", "Engineering Science elective", "Technology elective"],
+    "grd11_subj": ["Mathematics 5", "Physics Core (Level 1 or 2)", "Chemistry Core (Level 1 or 2) - For Chemical Engineering", "Engineering Science elective", "Technology elective", "DTech elective"],
+    "grd12_subj": ["Mathematics 5", "Physics Core (Level 1 or 2)", "Chemistry Core (Level 1 or 2) - For Chemical Engineering", "Engineering Science elective", "Technology elective"],
     "careers": ["Mechanical Engineer (Recommended for Physics Core)", "Chemical Engineer  (Recommended for Chemistry Core)", "Electrical Engineer (Recommended for Technology elective)", "Civil Engineer (Recommended for DTech elective)", "Environmental engineer (Recommended for Biophysics Core)"]
     }, 
     {
     "specialty": "Environmental Science",
     "person": "Environmental Scientist",
-    "grd11_subj": ["Biology Core (Level 1 or 2)", "BioChemistry Core (Level 1 or 2)", "Agriculture elective", "Technology elective", "Research 2 (Focus on environmental issues)"],
-    "grd12_subj": ["Biology Core (Level 1 or 2)", "Biochemistry Core (Level 1 or 2)", "Agriculture elective", "Technology elective", "Engineering Science elective", "Research 3 (Focus on environmental issues)"],
+    "grd11_subj": ["Biology Core (Level 1 or 2)", "Agriculture elective", "Technology elective", "Research 2 (Focus on environmental issues)"],
+    "grd12_subj": ["Biology Core (Level 1 or 2)", "Agriculture elective", "Technology elective", "Engineering Science elective", "Research 3 (Focus on environmental issues)"],
     "careers": ["Environmental Planner", "Environmental Engineer (Recommended for Engineering Science elective)", "Environmental Researcher"]
     }, 
     {
     "specialty": "Physics",
     "person": "Physicicst",
-    "grd11_subj": ["Physics Core (Level 1 or 2)", "BioPhysics Core (Level 1 or 2)", "ChemPhysics Core (Level 1 or 2)", "Engineering Science elective", "Research 2 (Focus on issues related to physics)"],
-    "grd12_subj": ["Physics Core (Level 1 or 2)", "BioPhysics Core (Level 1 or 2)", "ChemPhysics Core (Level 1 or 2)", "Engineering Science elective", "Research 3 (Focus on issues related to physics)"],
+    "grd11_subj": ["Physics Core (Level 1 or 2)", "Engineering Science elective", "Research 2 (Focus on issues related to physics)"],
+    "grd12_subj": ["Physics Core (Level 1 or 2)", "Engineering Science elective", "Research 3 (Focus on issues related to physics)"],
     "careers": ["Engineer", "Astrophysicist", "Medical Physicist", "Research Scientist (Physics Specialty)", "Educator for Physics-Related Subjects (Also Requires Education Degree)"]
     },
     {
     "specialty": "Chemistry",
     "person": "Chemist",
-    "grd11_subj": ["Chemistry Core (Level 1 or 2)", "BioChem Core (Level 1 or 2)", "ChemPhysics Core (Level 1 or 2)", "Engineering Science elective", "Research 2 (Focus on issues related to chemistry)"],
-    "grd12_subj": ["Chemistry Core (Level 1 or 2)", "BioChem Core (Level 1 or 2)", "ChemPhysics Core (Level 1 or 2)", "Engineering Science elective", "Research 3 (Focus on issues related to chemistry)"],
+    "grd11_subj": ["Chemistry Core (Level 1 or 2)", "Engineering Science elective", "Research 2 (Focus on issues related to chemistry)"],
+    "grd12_subj": ["Chemistry Core (Level 1 or 2)", "Engineering Science elective", "Research 3 (Focus on issues related to chemistry)"],
     "careers": ["General Chemist", "Forensic Scientist", "Chemistry Lab Techniciant", "Chemical Engineer", "Research Scientist (Chemistry Specialty)", "Organic Chemist", "Environmental Chemist", "Educator for Chemistry-Related Subjects (Also Requires Education Degree)"]
     },
     {
     "specialty": "Biology",
     "person": "Biologist",
-    "grd11_subj": ["Biology Core (Level 1 or 2)", "BioChem Core (Level 1 or 2)", "BioPhysics Core (Level 1 or 2)", "Research 2 (Focus on issues related to biology)"],
-    "grd12_subj": ["Biology Core (Level 1 or 2)", "BioChem Core (Level 1 or 2)", "BioPhysics Core (Level 1 or 2)", "Research 3 (Focus on issues related to biology)"],
+    "grd11_subj": ["Biology Core (Level 1 or 2)", "Research 2 (Focus on issues related to biology)"],
+    "grd12_subj": ["Biology Core (Level 1 or 2)", "Research 3 (Focus on issues related to biology)"],
     "careers": ["General Biologist", "Pathologist", "Biomedical Engineer", "Research Scientist (Biology Specialty)", "Field Biologist", "Environmental Engineer", "Educator for Biology-Related Subjects (Also Requires Education Degree)"]
     },
     {
