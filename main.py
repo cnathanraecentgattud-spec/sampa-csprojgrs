@@ -1,3 +1,6 @@
+["1. "]
+
+
 import time # for timed outputs
 def intro():
     print("    _------------_      ")
@@ -15,6 +18,7 @@ def intro():
     print("  |||||||||||||                          ")
 
     print("Welcome to (insert game name)!")
+    print("This game will try its best to determine a stable STEM job for you \n based on your experiences and opinions on things.")
     name = input("What is your name? ")
     time.sleep(2)
     print(f"{name}..")   # name input
@@ -81,6 +85,19 @@ def background(name):
         if name_change == "1":
             name = input("then by virtue of ■■■■, state your desired name: ")
             print(f"welcome to the fork again, {name}.")
+    elif ray == "3":
+        time.sleep(1)
+        origin_change = input("shall you wish to generate your new origin story then?")
+        print("PRESS 1 TO AGREE")
+        print("PRESS 2 TO GO BACK")
+        if origin_change == "1":
+            rebirth = input("select from the options given by the order.")
+            print("the archives can't hold infinite documentation of every source ■■■■■■.")
+            print("OPTION A. 'i'm just commuting to work. nothing much.")
+            print("OPTION B. 'just taking a walk along the avenue.")
+            print("OPTION C. 'i was reminded of my jog through the bus stop.")
+            print("OPTION ■. 'i was given the opportunity to ■■■■■ by the ■■■■■■■.")
+
 
 
 
