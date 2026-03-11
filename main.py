@@ -19,6 +19,9 @@ _______          \||||||\                 |||||||||||          ||||     \|      
            \|||||||||||||/     O        |||||||||||||||   O    ||||||||||||||||/   o    |||||||||||               ||||||||||||  O         ||        /||\     \||||||||/    |||   \\\  ||||||/   ||    \\\                           |||||||       \\\\\\\   |||||||||||||||||||  |||||||||||||||||||/  |||||  |||||||       \\\\\\\            ||||||||            |||||     |||||          
 """)
 
+main_intro = intro()
+(main_intro)
+
     print("Welcome to STEM Career Picker: Rebirth!")
     print("This game will try its best to determine a stable STEM job for you \n based on your experiences and opinions on things.")
     time.sleep(1)
