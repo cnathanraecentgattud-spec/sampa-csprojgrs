@@ -17,41 +17,46 @@ def intro():
          \||||||||||||||||||              |||||||||||          ||||           /|        |||||||||||      \/       ||||||||||||            |||||||/   ||    |||||           |||||||    |||||     ||||||||/                           |||||||     \\\\\\\     ||||||               ||||||        ||||||  |||||  |||||||     \\\\\\\              ||||||||            |||||     |||||                                                                                           
           \|||||||||||||||/              /|||||||||||\         |||||||||||||||||        |||||||||||               ||||||||||||            ||         ||    \||||\   /||\   |||  \\\   ||        ||   \\\                            |||||||      \\\\\\\    |||||||||||||||||||  ||||||\      /||||||  |||||  |||||||      \\\\\\\             ||||||||            |||||     |||||                                                                                    
            \|||||||||||||/     O        |||||||||||||||   O    ||||||||||||||||/   o    |||||||||||               ||||||||||||  O         ||        /||\     \||||||||/    |||   \\\  ||||||/   ||    \\\                           |||||||       \\\\\\\   |||||||||||||||||||  |||||||||||||||||||/  |||||  |||||||       \\\\\\\            ||||||||            |||||     |||||          
-""")
+        """)
 
-    print("Welcome to STEM Career Picker: Rebirth!")
-    print("This game will try its best to determine a stable STEM job for you \n based on your experiences and opinions on things.")
-    time.sleep(1)
-    print("The gist of this fun test is that you'll be answering multiple questions \n with either the first or second prompt \n using 1 and 2 as responses")    # main intro and explanation w/ purpose
-    time.sleep(3)
-    print("Now, let us start with the first fundamental question of the test.. being....!!!!")  # last of bait and switch print statements
-    time.sleep(1)
-    name = input("What is your name? ")
-    time.sleep(2)
-    print(f"{name}..")   # name inputting
-    print("...")
-    time.sleep(2)
-    print("born april 11, 1954..")
-    print("designated for the earliest bus en route to purgatory..")
-    time.sleep(1)
-    print("based on your credentials, you are eligible for a free reading on your mortal life.")
-    time.sleep(1)
-    print("now, where would we like to begin?")
-    time.sleep(1)
-    print()
-    print("ENTER 1 TO BE ENLIGHTENED")    # choice displays for the user
-    time.sleep(1)
-    print("ENTER 2 TO REMINISCE")
-    time.sleep(1)    # pauses for effect
-    print("ENTER 3 TO BOARD")
-    time.sleep(1)
-    choice = input("remember, time waits for no one..!")
-    if choice == "1":
-            game()
-    elif choice == "2":
-            background(name)    # main fork to the three options
-    elif choice == "3":
-            end()
+main_intro = intro()
+print(main_intro)
+
+print("Welcome to STEM Career Picker: Rebirth!")
+
+
+print("This game will try its best to determine a stable STEM job for you \n based on your experiences and opinions on things.")
+time.sleep(1)
+print("The gist of this fun test is that you'll be answering multiple questions \n with either the first or second prompt \n using 1 and 2 as responses")    # main intro and explanation w/ purpose
+time.sleep(3)
+print("Now, let us start with the first fundamental question of the test.. being....!!!!")  # last of bait and switch print statements
+time.sleep(1)
+name = input("What is your name? ")
+time.sleep(2)
+print(f"{name}..")   # name inputting
+print("...")
+time.sleep(2)
+print("born april 11, 1954..")
+print("designated for the earliest bus en route to purgatory..")
+time.sleep(1)
+print("based on your credentials, you are eligible for a free reading on your mortal life.")
+time.sleep(1)
+print("now, where would we like to begin?")
+time.sleep(1)
+print()
+print("ENTER 1 TO BE ENLIGHTENED")    # choice displays for the user
+time.sleep(1)
+print("ENTER 2 TO REMINISCE")
+time.sleep(1)    # pauses for effect
+print("ENTER 3 TO BOARD")
+time.sleep(1)
+choice = input("remember, time waits for no one..!")
+if choice == "1":
+        game()
+elif choice == "2":
+        background(name)    # main fork to the three options
+elif choice == "3":
+        end()
 
 
 def game():
