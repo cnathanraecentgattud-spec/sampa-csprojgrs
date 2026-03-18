@@ -2,77 +2,30 @@
 
 
 import time # for timed outputs
-def intro():
-	print(r"""     
-              /||||||||||||\         /|||||||||||||||||||\     |||||||||||||||||\       /||||||||||||\          /||||||||||||\          /||||||||\         /\        /|||||||\   /|||||\  /|||||\   /|||||||\                       /||||||||||||||||||\    |||||||||||||||||||  ||||||||||||||||||\   |||||  /||||||||||||||||||\    ||||||||||||||||||||||||||   |||||     |||||                                                                                       
-             /||||||||||||||\        |||||||||||||||||||||     ||||||||||||||||||       ||||||||||||||\        /||||||||||||||        /||||/   \||/       /||\       |||   |||   ||       ||        |||   |||                       |||||||||||||||||||||   |||||||||||||||||||  ||||||||||||||||||||  |||||  |||||||||||||||||||||   ||||||||||||||||||||||||||   |||||     |||||                                                                                                                
-            /|||||||||||||||||\      |||||||||||||||||||||     ||||            \|       |||||||||||||||\      /|||||||||||||||        |||||              /|/\|\      ||||||||/   |||||    |||||     ||||||||/                       ||||||/        \|||||   ||||||               ||||||/      \||||||  |||||  ||||||/        \|||||   ||||||||||||||||||||||||||   |||||     |||||                                                                                  
-            |||||||||||||||||||\     |/   |||||||||||   \|     ||||                     ||||||||||||||||\    /||||||||||||||||        \||||\   /||\     /||||||\     ||   \\\    ||       ||        ||   \\\                        ||||||          |||||   ||||||               ||||||        ||||||  |||||  ||||||          |||||            ||||||||            |||||     |||||                                                                                 
-             \|||||||/        |/          |||||||||||          ||||                     |||||||||||||||||\__/|||||||||||||||||          \||||||||/     ///    \\\    ||    \\\   ||||||/  ||||||/   ||    \\\                       ||||||\        /|||||   ||||||               ||||||        ||||||  |||||  ||||||\        /|||||            ||||||||            |||||     |||||                                                                         
-               \|||||\                    |||||||||||          ||||    //|              ||||||||||||||||||||||||||||||||||||||                                                                                          __________  |||||||||||||||||||||   ||||||               ||||||\      /|||||/  |||||  |||||||||||||||||||||            ||||||||            |||||     |||||                                                                                  
-                \|||||\                   |||||||||||          |||||||||||              ||||||||||||/|||||||||||\|||||||||||||        ---------------------------------------------------------------------------       __________  ||||||||||||||||||||/   ||||||||||||||       |||||||||||||||||/    |||||  ||||||||||||||||||||/            ||||||||            |||||||||||||||                                                                                                 
-                 \||||||\                 |||||||||||          ||||    \|               |||||||||||/  \|||||||/  \||||||||||||                                                                                          __________  |||||||/ \\\\\\\        ||||||               |||||||||||||||||\    |||||  |||||||/ \\\\\\\                 ||||||||            |||||     |||||                                                                                                    
-                /|||||||||\               |||||||||||          ||||                     |||||||||||    \|||||/    ||||||||||||            /||||||\  \||/     /||||||||\    ||    ///  /|||||\   /|||||||\                           |||||||   \\\\\\\       ||||||               ||||||/      \||||\   |||||  |||||||   \\\\\\\                ||||||||            |||||     |||||                                                                      
-         |\    /||||||||||||              |||||||||||          ||||                     |||||||||||     \|||/     ||||||||||||            |||  |||   ||    /||||/   \||/   ||\  ///   ||        |||   |||                           |||||||    \\\\\\\      ||||||               ||||||        ||||||  |||||  |||||||    \\\\\\\               ||||||||            |||||     |||||                                                                                                   
-         \||||||||||||||||||              |||||||||||          ||||           /|        |||||||||||      \/       ||||||||||||            |||||||/   ||    |||||           |||||||    |||||     ||||||||/                           |||||||     \\\\\\\     ||||||               ||||||        ||||||  |||||  |||||||     \\\\\\\              ||||||||            |||||     |||||                                                                                           
-          \|||||||||||||||/              /|||||||||||\         |||||||||||||||||        |||||||||||               ||||||||||||            ||         ||    \||||\   /||\   |||  \\\   ||        ||   \\\                            |||||||      \\\\\\\    |||||||||||||||||||  ||||||\      /||||||  |||||  |||||||      \\\\\\\             ||||||||            |||||     |||||                                                                                    
-           \|||||||||||||/     O        |||||||||||||||   O    ||||||||||||||||/   o    |||||||||||               ||||||||||||  O         ||        /||\     \||||||||/    |||   \\\  ||||||/   ||    \\\                           |||||||       \\\\\\\   |||||||||||||||||||  |||||||||||||||||||/  |||||  |||||||       \\\\\\\            ||||||||            |||||     |||||          
-        """)
-
-main_intro = intro()
-print(main_intro)
-
-print("Welcome to STEM Career Picker: Rebirth!")
-
-
-print("This game will try its best to determine a stable STEM job for you \n based on your experiences and opinions on things.")
-time.sleep(1)
-print("The gist of this fun test is that you'll be answering multiple questions \n with either the first or second prompt \n using 1 and 2 as responses")    # main intro and explanation w/ purpose
-time.sleep(3)
-print("Now, let us start with the first fundamental question of the test.. being....!!!!")  # last of bait and switch print statements
-time.sleep(1)
-name = input("What is your name? ")
-time.sleep(2)
-print(f"{name}..")   # name inputting
-print("...")
-time.sleep(2)
-print("born april 11, 1954..")
-print("designated for the earliest bus en route to purgatory..")
-time.sleep(1)
-print("based on your credentials, you are eligible for a free reading on your mortal life.")
-time.sleep(1)
-print("now, where would we like to begin?")
-time.sleep(1)
-print()
-print("ENTER 1 TO BE ENLIGHTENED")    # choice displays for the user
-time.sleep(1)
-print("ENTER 2 TO REMINISCE")
-time.sleep(1)    # pauses for effect
-print("ENTER 3 TO BOARD")
-time.sleep(1)
-choice = input("remember, time waits for no one..!")
-if choice == "1":
-        game()
-elif choice == "2":
-        background(name)    # main fork to the three options
-elif choice == "3":
-        end()
-
 
 def game():
+    time.sleep(2)
     print("a free reading i see..")
+    time.sleep(2)
     print("the divination of ■■■■ tells me to get to know you a bit more.")
+    time.sleep(1)
     print("-"*50)   # separator for readability
     print("PRESS 1 TO AGREE")
-    print("PRESS 2 TO DISAGREE")   # constant directory to prevent any losses due to not knowing controls
-    num = input("do you enjoy he process of problem solving?")
+    print("PRESS 2 TO DISAGREE")
+    time.sleep(2)
+    print("-" * 50)                    # constant directory to prevent any losses due to not knowing controls
+    num = input("do you enjoy the process of problem solving?")
     if num == "1":
         print("PRESS 1 FOR FIRST OPTION")
         print("PRESS 2 FOR SECOND OPTION")
+        time.sleep(2)
+        print("-" * 50)
         num = input("problem solving through creating or thinking?")
         if num == "1":
             print("PRESS 1 FOR FIRST OPTION")
             print("PRESS 2 FOR SECOND OPTION")
+            time.sleep(2)
+            print("-" * 50)
             num = input("rather coding or building?")
             if num == "1":
                 print("the STEM aligned course you could have been in your premature mortal life would be..")
@@ -80,6 +33,8 @@ def game():
             else:
                 print("PRESS 1 FOR FIRST OPTION")
                 print("PRESS 2 FOR SECOND OPTION")
+                time.sleep(2)
+                print("-" * 50)
                 num = input("a specific or general field?")
                 if num == "1":
                     print("the STEM aligned course you could have been in your premature mortal life would be..")
@@ -90,10 +45,14 @@ def game():
         else:
             print("PRESS 1 FOR FIRST OPTION")
             print("PRESS 2 FOR SECOND OPTION")
+            time.sleep(2)
+            print("-" * 50)
             num = input("working with nature or with numbers?")
             if num == "1":
                 print("PRESS 1 FOR FIRST OPTION")
                 print("PRESS 2 FOR SECOND OPTION")
+                time.sleep(2)
+                print("-" * 50)
                 num = input("outside world, or in a laboratory?")
                 if num == "1":
                     print("the STEM aligned course you could have been in your premature mortal life would be..")
@@ -123,15 +82,6 @@ def game():
                 else:
                     print("the STEM aligned course you could have been in your premature mortal life would be..")
                     print(courses[5]["specialty"])
-
-
-
-
-
-
-
-
-
 
 def background(name):  # settings function
     time.sleep(2)
@@ -181,11 +131,69 @@ def background(name):  # settings function
             print("OPTION C. 'i was reminded of my jog through the bus stop.")
             print("OPTION ■. 'i was given the opportunity to ■■■■■ by the ■■■■■■■.")
 
-
-
-
 def end():
     print("WIP")  # quitting mechanism (WIP)
+
+
+
+def intro():
+	print(r"""     
+              /||||||||||||\         /|||||||||||||||||||\     |||||||||||||||||\       /||||||||||||\          /||||||||||||\          /||||||||\         /\        /|||||||\   /|||||\  /|||||\   /|||||||\                       /||||||||||||||||||\    |||||||||||||||||||  ||||||||||||||||||\   |||||  /||||||||||||||||||\    ||||||||||||||||||||||||||   |||||     |||||                                                                                       
+             /||||||||||||||\        |||||||||||||||||||||     ||||||||||||||||||       ||||||||||||||\        /||||||||||||||        /||||/   \||/       /||\       |||   |||   ||       ||        |||   |||                       |||||||||||||||||||||   |||||||||||||||||||  ||||||||||||||||||||  |||||  |||||||||||||||||||||   ||||||||||||||||||||||||||   |||||     |||||                                                                                                                
+            /|||||||||||||||||\      |||||||||||||||||||||     ||||            \|       |||||||||||||||\      /|||||||||||||||        |||||              /|/\|\      ||||||||/   |||||    |||||     ||||||||/                       ||||||/        \|||||   ||||||               ||||||/      \||||||  |||||  ||||||/        \|||||   ||||||||||||||||||||||||||   |||||     |||||                                                                                  
+            |||||||||||||||||||\     |/   |||||||||||   \|     ||||                     ||||||||||||||||\    /||||||||||||||||        \||||\   /||\     /||||||\     ||   \\\    ||       ||        ||   \\\                        ||||||          |||||   ||||||               ||||||        ||||||  |||||  ||||||          |||||            ||||||||            |||||     |||||                                                                                 
+             \|||||||/        |/          |||||||||||          ||||                     |||||||||||||||||\__/|||||||||||||||||          \||||||||/     ///    \\\    ||    \\\   ||||||/  ||||||/   ||    \\\                       ||||||\        /|||||   ||||||               ||||||        ||||||  |||||  ||||||\        /|||||            ||||||||            |||||     |||||                                                                         
+               \|||||\                    |||||||||||          ||||    //|              ||||||||||||||||||||||||||||||||||||||                                                                                          __________  |||||||||||||||||||||   ||||||               ||||||\      /|||||/  |||||  |||||||||||||||||||||            ||||||||            |||||     |||||                                                                                  
+                \|||||\                   |||||||||||          |||||||||||              ||||||||||||/|||||||||||\|||||||||||||        ---------------------------------------------------------------------------       __________  ||||||||||||||||||||/   ||||||||||||||       |||||||||||||||||/    |||||  ||||||||||||||||||||/            ||||||||            |||||||||||||||                                                                                                 
+                 \||||||\                 |||||||||||          ||||    \|               |||||||||||/  \|||||||/  \||||||||||||                                                                                          __________  |||||||/ \\\\\\\        ||||||               |||||||||||||||||\    |||||  |||||||/ \\\\\\\                 ||||||||            |||||     |||||                                                                                                    
+                /|||||||||\               |||||||||||          ||||                     |||||||||||    \|||||/    ||||||||||||            /||||||\  \||/     /||||||||\    ||    ///  /|||||\   /|||||||\                           |||||||   \\\\\\\       ||||||               ||||||/      \||||\   |||||  |||||||   \\\\\\\                ||||||||            |||||     |||||                                                                      
+         |\    /||||||||||||              |||||||||||          ||||                     |||||||||||     \|||/     ||||||||||||            |||  |||   ||    /||||/   \||/   ||\  ///   ||        |||   |||                           |||||||    \\\\\\\      ||||||               ||||||        ||||||  |||||  |||||||    \\\\\\\               ||||||||            |||||     |||||                                                                                                   
+         \||||||||||||||||||              |||||||||||          ||||           /|        |||||||||||      \/       ||||||||||||            |||||||/   ||    |||||           |||||||    |||||     ||||||||/                           |||||||     \\\\\\\     ||||||               ||||||        ||||||  |||||  |||||||     \\\\\\\              ||||||||            |||||     |||||                                                                                           
+          \|||||||||||||||/              /|||||||||||\         |||||||||||||||||        |||||||||||               ||||||||||||            ||         ||    \||||\   /||\   |||  \\\   ||        ||   \\\                            |||||||      \\\\\\\    |||||||||||||||||||  ||||||\      /||||||  |||||  |||||||      \\\\\\\             ||||||||            |||||     |||||                                                                                    
+           \|||||||||||||/     O        |||||||||||||||   O    ||||||||||||||||/   o    |||||||||||               ||||||||||||  O         ||        /||\     \||||||||/    |||   \\\  ||||||/   ||    \\\                           |||||||       \\\\\\\   |||||||||||||||||||  |||||||||||||||||||/  |||||  |||||||       \\\\\\\            ||||||||            |||||     |||||          
+        """)
+
+main_intro = intro()
+
+
+print("Welcome to STEM Career Picker: Rebirth!")
+time.sleep(3)
+
+
+print("This game will try its best to determine a stable STEM job for you based on your experiences and opinions on things.")
+time.sleep(3)
+print("The gist of this fun test is that you'll be answering multiple questions with either the first or second prompt using 1 and 2 as responses")    # main intro and explanation w/ purpose
+time.sleep(3)
+print("Now, let us start with the first fundamental question of the test.. being....!!!!")  # last of bait and switch print statements
+time.sleep(3)
+name = input("What is your name? ")
+time.sleep(2)
+print(f"{name}..")
+time.sleep(2)      # name inputting
+print("...")
+time.sleep(2)
+print("born april 11, 1954..")
+time.sleep(2)
+print("designated for the earliest bus en route to purgatory..")
+time.sleep(2)
+print("based on your credentials, you are eligible for a free reading on your mortal life.")
+time.sleep(3)
+print("now, where would we like to begin?")
+time.sleep(2)
+print()
+print("ENTER 1 TO BE ENLIGHTENED")    # choice displays for the user
+time.sleep(1)
+print("ENTER 2 TO REMINISCE")
+time.sleep(1)    # pauses for effect
+print("ENTER 3 TO BOARD")
+time.sleep(1)
+choice = input("remember, time waits for no one..!")
+if choice == "1":
+        game()
+elif choice == "2":
+        background(name)    # main fork to the three options
+elif choice == "3":
+        end()
 
 
 import json  # the list of dictionaries that'll be transposed into a separate json file later on | to be coordinated with venize for more info - tnx
