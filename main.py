@@ -10,58 +10,70 @@ def game():
     print("the divination of ■■■■ tells me to get to know you a bit more.")
     time.sleep(1)
     print("-"*50)   # separator for readability
-    print("PRESS 1 TO AGREE")
+    print("PRESS 1 TO 'AGREE'")
     print("PRESS 2 TO DISAGREE")
     time.sleep(2)
     print("-" * 50)                    # constant directory to prevent any losses due to not knowing controls
     num = input("do you enjoy the process of problem solving?")
     if num == "1":
-        print("PRESS 1 FOR FIRST OPTION")
-        print("PRESS 2 FOR SECOND OPTION")
+        print("-" * 50)
+        print("PRESS 1 FOR 'THOUGH CREATING' ")
+        print("PRESS 2 FOR 'BY THINKING' ")
         time.sleep(2)
         print("-" * 50)
         num = input("problem solving through creating or thinking?")
         if num == "1":
-            print("PRESS 1 FOR FIRST OPTION")
-            print("PRESS 2 FOR SECOND OPTION")
+            print("-" * 50)
+            print("PRESS 1 FOR 'CODING' ")
+            print("PRESS 2 FOR 'BUILDING' ")
             time.sleep(2)
             print("-" * 50)
             num = input("rather coding or building?")
             if num == "1":
+                print("-" * 50)
                 print("the STEM aligned course you could have been in your premature mortal life would be..")
                 print(courses[0]["specialty"]) # result of test based on the list of dictionaries at the bottom
             else:
-                print("PRESS 1 FOR FIRST OPTION")
-                print("PRESS 2 FOR SECOND OPTION")
+                print("-" * 50)
+                print("PRESS 1 FOR 'SPECIFIC' ")
+                print("PRESS 2 FOR 'GENERAL' ")
                 time.sleep(2)
                 print("-" * 50)
                 num = input("a specific or general field?")
                 if num == "1":
+                    print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..")
                     print(courses[1]["specialty"])
                 else:
+                    print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..")
                     print(courses[2]["specialty"])
         else:
-            print("PRESS 1 FOR FIRST OPTION")
-            print("PRESS 2 FOR SECOND OPTION")
+            print("-" * 50)
+            print("PRESS 1 FOR 'NATURE' ")
+            print("PRESS 2 FOR 'NUMBERS' ")
             time.sleep(2)
             print("-" * 50)
             num = input("working with nature or with numbers?")
             if num == "1":
-                print("PRESS 1 FOR FIRST OPTION")
-                print("PRESS 2 FOR SECOND OPTION")
+                print("-" * 50)
+                print("PRESS 1 FOR 'OUT IN THE OPEN' ")
+                print("PRESS 2 FOR 'IN A LAB' ")
                 time.sleep(2)
+
                 print("-" * 50)
                 num = input("outside world, or in a laboratory?")
                 if num == "1":
+                    print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..")
                     print(courses[3]["specialty"])
                 else:
+                    print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..")
                     print(courses[6]["specialty"])
             else:
-                print("PRESS 1 FOR FIRST OPTION")
+                print("-" * 50)
+                print("PRESS 1 FOR ")
                 print("PRESS 2 FOR SECOND OPTION")
                 print("do you en■■■ ■■ ■■■■■■■ ■■■ ■■■■■■")    # area to snap back to lore | as much as possible pls don't remove w/o direction from nathan - tnx
                 time.sleep(2)
@@ -70,18 +82,24 @@ def game():
                 print("sorry, the ■■■■■ malfunctioned.")
                 num = input("do you prefer familiarization or active memorization and application?")
                 if num == "1":
+                    print("-" * 50)
                     print("PRESS 1 TO AGREE")
                     print("PRESS 2 TO DISAGREE")
                     num = input("identifying structures or understanding & predicting?")
                     if num == "1":
+                        print("-" * 50)
                         print("the STEM aligned course you could have been in your premature mortal life would be..")
                         print(courses[7]["specialty"])
                     else:
+                        print("-" * 50)
                         print("the STEM aligned course you could have been in your premature mortal life would be..")
                         print(courses[4]["specialty"])
                 else:
+                    print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..")
                     print(courses[5]["specialty"])
+    else:
+
 
 def background(name):  # settings function
     time.sleep(2)
