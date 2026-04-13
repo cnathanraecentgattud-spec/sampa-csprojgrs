@@ -148,11 +148,11 @@ def game():
                 time.sleep(2)
                 print("...")
                 time.sleep(1)
-                print("sorry, the ■■■■■ malfunctioned.")
+                print("apologies, the ■■■■■ malfunctioned.")
                 num = input("do you prefer familiarization or active memorization and application?")
                 if num == "1":
-                    print("PRESS 1 TO AGREE")
-                    print("PRESS 2 TO DISAGREE")
+                    print("PRESS 1 TO FIRST OPTION")
+                    print("PRESS 2 TO SECOND OPTION")
                     num = input("identifying structures or understanding & predicting?")
                     if num == "1":
                         print("the STEM aligned course you could have been in your premature mortal life would be..")
@@ -282,7 +282,7 @@ courses = [
     }, 
     {
     "specialty": "Physics",
-    "person": "Physicicst",
+    "person": "Physicist",
     "grd11_subj": ["Physics Core (Level 1 or 2)", "Engineering Science elective", "Research 2 (Focus on issues related to physics)"],
     "grd12_subj": ["Physics Core (Level 1 or 2)", "Engineering Science elective", "Research 3 (Focus on issues related to physics)"],
     "careers": ["Engineer", "Astrophysicist", "Medical Physicist", "Research Scientist (Physics Specialty)", "Educator for Physics-Related Subjects (Also Requires Education Degree)"]
@@ -292,7 +292,7 @@ courses = [
     "person": "Chemist",
     "grd11_subj": ["Chemistry Core (Level 1 or 2)", "Engineering Science elective", "Research 2 (Focus on issues related to chemistry)"],
     "grd12_subj": ["Chemistry Core (Level 1 or 2)", "Engineering Science elective", "Research 3 (Focus on issues related to chemistry)"],
-    "careers": ["General Chemist", "Forensic Scientist", "Chemistry Lab Techniciant", "Chemical Engineer", "Research Scientist (Chemistry Specialty)", "Organic Chemist", "Environmental Chemist", "Educator for Chemistry-Related Subjects (Also Requires Education Degree)"]
+    "careers": ["General Chemist", "Forensic Scientist", "Chemistry Lab Technician", "Chemical Engineer", "Research Scientist (Chemistry Specialty)", "Organic Chemist", "Environmental Chemist", "Educator for Chemistry-Related Subjects (Also Requires Education Degree)"]
     },
     {
     "specialty": "Biology",
