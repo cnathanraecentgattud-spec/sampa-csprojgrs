@@ -255,57 +255,57 @@ courses = [
 	{ 
     "specialty": "Computer Science",
     "person": "Computer Scientist",
-    "grd11_subj": ["Mathematics 5", "Computer Science elective", "Technology elective"],
-    "grd12_subj": ["Mathematics 6", "Computer Science elective", "Technology elective"],
+    "grd11_subj": ["Mathematics 6 (Core Subject)", "Computer Science elective", "Technology elective"],
+    "grd12_subj": ["Mathematics 7 (Core Subject)", "Computer Science elective", "Technology elective"],
     "careers": ["Software Developer/Engineer", "Web Developer", "Cybersecurity Analyst", "Data Scientist/Engineer"]
     }, 
     {
     "specialty": "Robotics",
     "person": "Robotics Specialist",
-    "grd11_subj": ["Mathematics 5", "Physics Core (Level 1 or 2)", "Computer Science elective", "Technology elective", "DTech elective"],
-    "grd12_subj": ["Mathematics 5", "Physics Core (Level 1 or 2)", "Computer Science elective", "Technology elective", "DTech elective"],
+    "grd11_subj": ["Mathematics 6 (Core Subject)", "Physics Science Specialization (Level 1 or 2)", "Computer Science elective", "Technology elective", "DTech elective"],
+    "grd12_subj": ["Mathematics 7 (Core Subject)", "Physics Science Specialization (Level 1 or 2)", "Computer Science elective", "Technology elective", "DTech elective"],
     "careers": ["Robotics Engineer", "Robot Developer", "Data Scientist/Engineer"]
     }, 
     {
     "specialty": "Engineering",
     "person": "Engineer",
-    "grd11_subj": ["Mathematics 5", "Physics Core (Level 1 or 2)", "Chemistry Core (Level 1 or 2) - For Chemical Engineering", "Engineering Science elective", "Technology elective", "DTech elective"],
-    "grd12_subj": ["Mathematics 5", "Physics Core (Level 1 or 2)", "Chemistry Core (Level 1 or 2) - For Chemical Engineering", "Engineering Science elective", "Technology elective"],
+    "grd11_subj": ["Mathematics 6 (Core Subject)", "Physics Science Specialization (Level 1 or 2)", "Chemistry Science Specialization (Level 1 or 2) - For Chemical Engineering", "Engineering Science elective", "Technology elective", "DTech elective"],
+    "grd12_subj": ["Mathematics 7 (Core Subject)", "Physics Science Specialization (Level 1 or 2)", "Chemistry Science Specialization (Level 1 or 2) - For Chemical Engineering", "Engineering Science elective", "Technology elective", "Mathematics 8 elective"],
     "careers": ["Mechanical Engineer (Recommended for Physics Core)", "Chemical Engineer  (Recommended for Chemistry Core)", "Electrical Engineer (Recommended for Technology elective)", "Civil Engineer (Recommended for DTech elective)", "Environmental engineer (Recommended for Biophysics Core)"]
     }, 
     {
     "specialty": "Environmental Science",
     "person": "Environmental Scientist",
-    "grd11_subj": ["Biology Core (Level 1 or 2)", "Agriculture elective", "Technology elective", "Research 2 (Focus on environmental issues)"],
-    "grd12_subj": ["Biology Core (Level 1 or 2)", "Agriculture elective", "Technology elective", "Engineering Science elective", "Research 3 (Focus on environmental issues)"],
+    "grd11_subj": ["Biology Science Specialization (Level 1 or 2)", "Agriculture elective", "Technology elective", "Research 1 (Focus on environmental issues)"],
+    "grd12_subj": ["Biology Science Specialization (Level 1 or 2)", "Agriculture elective", "Technology elective", "Engineering Science elective", "Research 2 (Focus on environmental issues)"],
     "careers": ["Environmental Planner", "Environmental Engineer (Recommended for Engineering Science elective)", "Environmental Researcher"]
     }, 
     {
     "specialty": "Physics",
     "person": "Physicist",
-    "grd11_subj": ["Physics Core (Level 1 or 2)", "Engineering Science elective", "Research 2 (Focus on issues related to physics)"],
-    "grd12_subj": ["Physics Core (Level 1 or 2)", "Engineering Science elective", "Research 3 (Focus on issues related to physics)"],
+    "grd11_subj": ["Physics Science Specialization (Level 1 or 2)", "Engineering Science elective", "Research 1 (Focus on issues related to physics)"],
+    "grd12_subj": ["Physics Science Specialization (Level 1 or 2)", "Engineering Science elective", "Mathematics 8 elective", "Research 2 (Focus on issues related to physics)"],
     "careers": ["Engineer", "Astrophysicist", "Medical Physicist", "Research Scientist (Physics Specialty)", "Educator for Physics-Related Subjects (Also Requires Education Degree)"]
     },
     {
     "specialty": "Chemistry",
     "person": "Chemist",
-    "grd11_subj": ["Chemistry Core (Level 1 or 2)", "Engineering Science elective", "Research 2 (Focus on issues related to chemistry)"],
-    "grd12_subj": ["Chemistry Core (Level 1 or 2)", "Engineering Science elective", "Research 3 (Focus on issues related to chemistry)"],
+    "grd11_subj": ["Chemistry Science Specialization (Level 1 or 2)", "Engineering Science elective", "Research 1 (Focus on issues related to chemistry)"],
+    "grd12_subj": ["Chemistry Science Specialization (Level 1 or 2)", "Engineering Science elective", "Research 2 (Focus on issues related to chemistry)"],
     "careers": ["General Chemist", "Forensic Scientist", "Chemistry Lab Technician", "Chemical Engineer", "Research Scientist (Chemistry Specialty)", "Organic Chemist", "Environmental Chemist", "Educator for Chemistry-Related Subjects (Also Requires Education Degree)"]
     },
     {
     "specialty": "Biology",
     "person": "Biologist",
-    "grd11_subj": ["Biology Core (Level 1 or 2)", "Research 2 (Focus on issues related to biology)"],
-    "grd12_subj": ["Biology Core (Level 1 or 2)", "Research 3 (Focus on issues related to biology)"],
+    "grd11_subj": ["Biology Science Specialization (Level 1 or 2)", "Research 1 (Focus on issues related to biology)"],
+    "grd12_subj": ["Biology Science Specialization (Level 1 or 2)", "Research 2 (Focus on issues related to biology)"],
     "careers": ["General Biologist", "Pathologist", "Biomedical Engineer", "Research Scientist (Biology Specialty)", "Field Biologist", "Environmental Engineer", "Educator for Biology-Related Subjects (Also Requires Education Degree)"]
     },
     {
     "specialty": "Mathematics",
     "person": "Mathematician",
-    "grd11_subj": ["Mathematics 5", "Physics Core (Level 1 or 2)", "Engineering Science elective", "Computer Science elective"],
-    "grd12_subj": ["Mathematics 6", "Physics Core (Level 1 or 2)", "Engineering Science elective", "Computer Science elective"],
+    "grd11_subj": ["Mathematics 6 (Core Subject)", "Physics Science Specialization (Level 1 or 2)", "Engineering Science elective", "Computer Science elective"],
+    "grd12_subj": ["Mathematics 7 (Core Subject)", "Physics Science Specialization (Level 1 or 2)", "Engineering Science elective", "Computer Science elective", "Mathematics 8 elective"],
     "careers": ["Data Scientist", "Aerospace Engineer", "Civil Engineer", "Physicist (Recommended for Physics Core)", "Researcher & Analyst", "Educator for Mathematics (Also Requires Education Degree)"]
     }
 ]
