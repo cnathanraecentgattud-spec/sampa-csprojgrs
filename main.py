@@ -92,7 +92,17 @@ def game():
             if num == "1":
                 print("-" * 50)
                 print("the STEM aligned course you could have been in your premature mortal life would be..")
-                print(courses[0]["specialty"]) # result of test based on the list of dictionaries at the bottom
+                print(courses[0]["specialty"])
+                print("You could have learned so much... \n Perhaps through these electives:")
+                print(f"Grade 11: {(courses[0]["grd11_subj"])}")
+                print(f"Grade 12: {(courses[0]["grd12_subj"])}")
+                print(f"You could have given back to society so much... \n There were opportunities a plenty:")
+                print(f"Careers: {(courses[0]["careers"])}")
+                print(" ")
+                print(
+                    "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
+
+                # result of test based on the list of dictionaries at the bottom
             else:
                 print("-" * 50)
                 print("PRESS 1 FOR 'SPECIFIC' ")
@@ -104,10 +114,28 @@ def game():
                     print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..")
                     print(courses[1]["specialty"])
+                    print("You could have learned so much... \n Perhaps through these electives:")
+                    print(f"Grade 11: {(courses[1]["grd11_subj"])}")
+                    print(f"Grade 12: {(courses[1]["grd12_subj"])}")
+                    print(f"You could have given back to society so much... \n There were opportunities a plenty:")
+                    print(f"Careers: {(courses[1]["careers"])}")
+                    print(" ")
+                    print(
+                        "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
+
                 else:
                     print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..")
                     print(courses[2]["specialty"])
+                    print("You could have learned so much... \n Perhaps through these electives:")
+                    print(f"Grade 11: {(courses[2]["grd11_subj"])}")
+                    print(f"Grade 12: {(courses[2]["grd12_subj"])}")
+                    print(f"You could have given back to society so much... \n There were opportunities a plenty:")
+                    print(f"Careers: {(courses[2]["careers"])}")
+                    print(" ")
+                    print(
+                        "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
+
         else:
             print("-" * 50)
             print("PRESS 1 FOR 'NATURE' ")
@@ -127,10 +155,28 @@ def game():
                     print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..")
                     print(courses[3]["specialty"])
+                    print("You could have learned so much... \n Perhaps through these electives:")
+                    print(f"Grade 11: {(courses[3]["grd11_subj"])}")
+                    print(f"Grade 12: {(courses[3]["grd12_subj"])}")
+                    print(f"You could have given back to society so much... \n There were opportunities a plenty:")
+                    print(f"Careers: {(courses[3]["careers"])}")
+                    print(" ")
+                    print(
+                        "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
+
                 else:
                     print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..")
                     print(courses[6]["specialty"])
+                    print("You could have learned so much... \n Perhaps through these electives:")
+                    print(f"Grade 11: {(courses[6]["grd11_subj"])}")
+                    print(f"Grade 12: {(courses[6]["grd12_subj"])}")
+                    print(f"You could have given back to society so much... \n There were opportunities a plenty:")
+                    print(f"Careers: {(courses[6]["careers"])}")
+                    print(" ")
+                    print(
+                        "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
+
             else:
                 print("-" * 50)
                 print("PRESS 1 FOR ")
@@ -150,14 +196,41 @@ def game():
                         print("-" * 50)
                         print("the STEM aligned course you could have been in your premature mortal life would be..")
                         print(courses[7]["specialty"])
+                        print("You could have learned so much... \n Perhaps through these electives:")
+                        print(f"Grade 11: {(courses[7]["grd11_subj"])}")
+                        print(f"Grade 12: {(courses[7]["grd12_subj"])}")
+                        print(f"You could have given back to society so much... \n There were opportunities a plenty:")
+                        print(f"Careers: {(courses[7]["careers"])}")
+                        print(" ")
+                        print(
+                            "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
+
                     else:
                         print("-" * 50)
                         print("the STEM aligned course you could have been in your premature mortal life would be..")
                         print(courses[4]["specialty"])
+                        print("You could have learned so much... \n Perhaps through these electives:")
+                        print(f"Grade 11: {(courses[4]["grd11_subj"])}")
+                        print(f"Grade 12: {(courses[4]["grd12_subj"])}")
+                        print(f"You could have given back to society so much... \n There were opportunities a plenty:")
+                        print(f"Careers: {(courses[4]["careers"])}")
+                        print(" ")
+                        print(
+                            "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
+
                 else:
                     print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..")
                     print(courses[5]["specialty"])
+                    print("You could have learned so much... \n Perhaps through these electives:")
+                    print(f"Grade 11: {(courses[5]["grd11_subj"])}")
+                    print(f"Grade 12: {(courses[5]["grd12_subj"])}")
+                    print(f"You could have given back to society so much... \n There were opportunities a plenty:")
+                    print(f"Careers: {(courses[5]["careers"])}")
+                    print(" ")
+                    print(
+                        "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
+
     else:
         print("-" * 50)
         print("PRESS 1 FOR APPLICATION ")
