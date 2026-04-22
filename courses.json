@@ -182,5 +182,125 @@
             "Researcher & Analyst",
             "Educator for Mathematics (Also Requires Education Degree)"
         ]
+    },
+    {
+        "specialty": "Data Curation",
+        "person": "Data Curator",
+        "grd11_subj": [
+            "Mathematics 6 (Core Subject)",
+            "Computer Science elective"
+        ],
+        "grd12_subj": [
+            "Mathematics 7 (Core Subject)",
+            "Computer Science elective",
+            "Mathematics 8 elective"
+        ],
+        "careers": [
+            "AI/Machine Programmer",
+            "Analytical Data Curator",
+            "Code Proofreader",
+            "Medical Data Manager",
+            "Digital Content Manager"
+        ]
+    },
+    {
+        "specialty": "Database Administration",
+        "person": "Database Administrator",
+        "grd11_subj": [
+            "Mathematics 6 (Core Subject)",
+            "Engineering elective",
+            "Computer Science elective"
+        ],
+        "grd12_subj": [
+            "Mathematics 7 (Core Subject)",
+            "Engineering elective",
+            "Computer Science elective",
+            "Mathematics 8 elective"
+        ],
+        "careers": [
+            "Database Manager",
+            "Cloud Manager",
+            "Database Security and Maintenance"
+        ]
+    },
+    {
+        "specialty": "Horticulture",
+        "person": "Horticulturist",
+        "grd11_subj": [
+            "Biology Science Specialization (Level 1 or 2)",
+            "Agriculture elective"
+        ],
+        "grd12_subj": [
+            "Biology Science Specialization (Level 1 or 2)",
+            "Agriculture elective"
+        ],
+        "careers": [
+            "Greenhouse Manager",
+            "Farm Technician",
+            "Crop Production Specialist",
+            "Research Horticulturist"
+        ]
+    },
+    {
+        "specialty": "Agriculture",
+        "person": "Agriculturist",
+        "grd11_subj": [
+            "Biology Science Specialization (Level 1 or 2)",
+            "Agriculture elective",
+            "Climate Science elective"
+        ],
+        "grd12_subj": [
+            "Biology Science Specialization (Level 1 or 2)",
+            "Agriculture elective",
+            "Climate Science elective"
+        ],
+        "careers": [
+            "Field Agronomist",
+            "Plant Doctor",
+            "Farm Technician",
+            "Zoology Researcher",
+            "Botany Researcher"
+        ]
+    },
+    {
+        "specialty": "Theoretical Research",
+        "person": "Theoretical Researcher",
+        "grd11_subj": [
+            "Research 1",
+            "English 5 (Core Subject) - For Oral and Written Communication"
+        ],
+        "grd12_subj": [
+            "Research 2",
+            "English 6 (Core Subject) - For Science Communication"
+        ],
+        "careers": [
+            "General Scientific Theorist",
+            "Theoretical Physicist",
+            "Theoretical Chemist",
+            "Quantum Researcher",
+            "Quantitative Analyst",
+            "Theoretical Scientific Framework Professor"
+        ]
+    },
+    {
+        "specialty": "Applied Science",
+        "person": "Applied Scientist",
+        "grd11_subj": [
+            "Research 1",
+            "Engineering elective",
+            "Any Science Subject of your interest with laboratory activities"
+        ],
+        "grd12_subj": [
+            "Research 2",
+            "Engineering elective",
+            "Any Science Subject of your interest with laboratory activities"
+        ],
+        "careers": [
+            "Applied AI Researcher",
+            "Biomedical Engineer",
+            "Experimental Physicist ",
+            "Aerospace Engineer",
+            "Agricultural Scientist"
+        ]
     }
 ]

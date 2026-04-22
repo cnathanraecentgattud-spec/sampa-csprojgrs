@@ -58,7 +58,8 @@ def intro():
         background(name) # main fork to the three options
     elif choice == "3":
         end()
-
+    else:
+        print("either you have grown sick of knowledge or...\n you truly did not realize your error")
 
 
 
@@ -77,7 +78,7 @@ def game():
     num = input("do you enjoy the process of problem solving?")
     if num == "1":
         print("-" * 50)
-        print("PRESS 1 FOR 'THOUGH CREATING' ")
+        print("PRESS 1 FOR 'THROUGH CREATING' ")
         print("PRESS 2 FOR 'BY THINKING' ")
         time.sleep(2)
         print("-" * 50)
@@ -103,7 +104,7 @@ def game():
                     "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
 
                 # result of test based on the list of dictionaries at the bottom
-            else:
+            elif num == "2":
                 print("-" * 50)
                 print("PRESS 1 FOR 'SPECIFIC' ")
                 print("PRESS 2 FOR 'GENERAL' ")
@@ -123,7 +124,7 @@ def game():
                     print(
                         "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
 
-                else:
+                elif num == "2":
                     print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..")
                     print(courses[2]["specialty"])
@@ -136,7 +137,12 @@ def game():
                     print(
                         "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
 
-        else:
+                else:
+                    print("Invalid input \n Enlightenment unsuccessful")
+            else:
+                print("Invalid input \n Enlightenment unsuccessful")
+
+        elif num == "2":
             print("-" * 50)
             print("PRESS 1 FOR 'NATURE' ")
             print("PRESS 2 FOR 'NUMBERS' ")
@@ -164,7 +170,7 @@ def game():
                     print(
                         "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
 
-                else:
+                elif num == "2":
                     print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..")
                     print(courses[6]["specialty"])
@@ -176,8 +182,10 @@ def game():
                     print(" ")
                     print(
                         "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
+                else:
+                    print("Invalid input \n Enlightenment unsuccessful")
 
-            else:
+            elif num == "2":
                 print("-" * 50)
                 print("PRESS 1 FOR ")
                 print("PRESS 2 FOR SECOND OPTION")
@@ -205,7 +213,7 @@ def game():
                         print(
                             "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
 
-                    else:
+                    elif num == "2":
                         print("-" * 50)
                         print("the STEM aligned course you could have been in your premature mortal life would be..")
                         print(courses[4]["specialty"])
@@ -218,7 +226,10 @@ def game():
                         print(
                             "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
 
-                else:
+                    else:
+                        print("Invalid input \n Enlightenment unsuccessful")
+
+                elif num == "2":
                     print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..")  # database administrator
                     print(courses[5]["specialty"])
@@ -231,7 +242,16 @@ def game():
                     print(
                         "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
 
-    else:
+                else:
+                    print("Invalid input \n Enlightenment unsuccessful")
+
+            else:
+                print("Invalid input \n Enlightenment unsuccessful")
+
+        else:
+            print("Invalid input \n Enlightenment unsuccessful")
+
+    elif num == "2":
         print("-" * 50)
         print("PRESS 1 FOR APPLICATION ")
         print("PRESS 2 FOR DERIVATION ")
@@ -253,7 +273,7 @@ def game():
                     print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..") # aligned for a DATA CURATOR
                     print(courses[8]["specialty"])
-					print("You could have learned so much... \n Perhaps through these electives:")
+                    print("You could have learned so much... \n Perhaps through these electives:")
                     print(f"Grade 11: {(courses[8]["grd11_subj"])}")
                     print(f"Grade 12: {(courses[8]["grd12_subj"])}")
                     print(f"You could have given back to society so much... \n There were opportunities a plenty:")
@@ -261,11 +281,11 @@ def game():
                     print(" ")
                     print(
                         "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
-                else:
+                elif num == "2":
                     print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..") # aligned for a DATABASE ADMINISTRATOR
                     print(courses[9]["specialty"])
-					print("You could have learned so much... \n Perhaps through these electives:")
+                    print("You could have learned so much... \n Perhaps through these electives:")
                     print(f"Grade 11: {(courses[9]["grd11_subj"])}")
                     print(f"Grade 12: {(courses[9]["grd12_subj"])}")
                     print(f"You could have given back to society so much... \n There were opportunities a plenty:")
@@ -274,7 +294,10 @@ def game():
                     print(
                         "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
 
-            else:
+                else:
+                    print("Invalid input \n Enlightenment unsuccessful")
+
+            elif num == "2":
                 print("-" * 50)
                 print("PRESS 1 FOR LARGE-SCALE ")
                 print("PRESS 2 FOR HIGH-VALUE ")
@@ -284,7 +307,7 @@ def game():
                     print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..")  # aligned for a AGRICULTURE
                     print(courses[10]["specialty"])
-					print("You could have learned so much... \n Perhaps through these electives:")
+                    print("You could have learned so much... \n Perhaps through these electives:")
                     print(f"Grade 11: {(courses[10]["grd11_subj"])}")
                     print(f"Grade 12: {(courses[10]["grd12_subj"])}")
                     print(f"You could have given back to society so much... \n There were opportunities a plenty:")
@@ -292,11 +315,11 @@ def game():
                     print(" ")
                     print(
                         "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
-                else:
+                elif num == "2":
                     print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..")  # aligned for a HORTICULTURE
                     print(courses[11]["specialty"])
-					print("You could have learned so much... \n Perhaps through these electives:")
+                    print("You could have learned so much... \n Perhaps through these electives:")
                     print(f"Grade 11: {(courses[11]["grd11_subj"])}")
                     print(f"Grade 12: {(courses[11]["grd12_subj"])}")
                     print(f"You could have given back to society so much... \n There were opportunities a plenty:")
@@ -305,7 +328,13 @@ def game():
                     print(
                         "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
 
-        else:
+                else:
+                    print("Invalid input \n Enlightenment unsuccessful")
+
+            else:
+                print("Invalid input \n Enlightenment unsuccessful")
+
+        elif num =="2":
             print("-" * 50)
             print("PRESS 1 FOR THEORETICAL ")
             print("PRESS 2 FOR APPLIED ")
@@ -315,28 +344,33 @@ def game():
                 print("-" * 50)
                 print("the STEM aligned course you could have been in your premature mortal life would be..")  # aligned for a THEORETICAL RESEARCHER
                 print(courses[12]["specialty"])
-				print("You could have learned so much... \n Perhaps through these electives:")
-                    print(f"Grade 11: {(courses[12]["grd11_subj"])}")
-                    print(f"Grade 12: {(courses[12]["grd12_subj"])}")
-                    print(f"You could have given back to society so much... \n There were opportunities a plenty:")
-                    print(f"Careers: {(courses[12]["careers"])}")
-                    print(" ")
-                    print(
-                        "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
-            else:
+                print("You could have learned so much... \n Perhaps through these electives:")
+                print(f"Grade 11: {(courses[12]["grd11_subj"])}")
+                print(f"Grade 12: {(courses[12]["grd12_subj"])}")
+                print(f"You could have given back to society so much... \n There were opportunities a plenty:")
+                print(f"Careers: {(courses[12]["careers"])}")
+                print(" ")
+                print("It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
+            elif num == "2":
                 print("-" * 50)
                 print("the STEM aligned course you could have been in your premature mortal life would be..")  # aligned for a APPLIED SCIENTIST
                 print(courses[13]["specialty"])
-				print("You could have learned so much... \n Perhaps through these electives:")
-                    print(f"Grade 11: {(courses[13]["grd11_subj"])}")
-                    print(f"Grade 12: {(courses[13]["grd12_subj"])}")
-                    print(f"You could have given back to society so much... \n There were opportunities a plenty:")
-                    print(f"Careers: {(courses[13]["careers"])}")
-                    print(" ")
-                    print(
-                        "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
+                print("You could have learned so much... \n Perhaps through these electives:")
+                print(f"Grade 11: {(courses[13]["grd11_subj"])}")
+                print(f"Grade 12: {(courses[13]["grd12_subj"])}")
+                print(f"You could have given back to society so much... \n There were opportunities a plenty:")
+                print(f"Careers: {(courses[13]["careers"])}")
+                print(" ")
+                print("It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
 
+            else:
+                print("Invalid input \n Enlightenment unsuccessful")
 
+        else:
+            print("Invalid input \n Enlightenment unsuccessful")
+
+    else:
+        print("Invalid input \n Enlightenment unsuccessful")
 
 
 
@@ -392,6 +426,10 @@ def background(name):  # settings function
             print("OPTION C. 'i was reminded of my jog through the bus stop.")
             print("OPTION ■. 'i was given the opportunity to ■■■■■ by the ■■■■■■■.")
 
+
+
+    else: # this goes after ray == "2"
+        print("Invalid input \n Rebirth unsuccessful")
 
 
 
