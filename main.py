@@ -245,18 +245,19 @@ def game():
             num = input("digital or outside work?")
             if num == "1":
                 print("-" * 50)
-                print("PRESS 1 FOR HANDLING ")
-                print("PRESS 2 FOR MANUFACTURING")
+                print("PRESS 1 FOR QUALITY ")
+                print("PRESS 2 FOR PERFORMANCE ")
                 time.sleep(2)
-                num = input("data handling or data manufacturing?")
+                num = input("quality control or performance overseer?")
                 if num == "1":
                     print("-" * 50)
-                    print("the STEM aligned course you could have been in your premature mortal life would be..")
+                    print("the STEM aligned course you could have been in your premature mortal life would be..") # aligned for a DATA CURATOR
                     print(courses[4]["specialty"])
                 else:
                     print("-" * 50)
-                    print("the STEM aligned course you could have been in your premature mortal life would be..")
+                    print("the STEM aligned course you could have been in your premature mortal life would be..") # aligned for a DATABASE ADMINISTRATOR
                     print(courses[4]["specialty"])
+					
 
 
 
