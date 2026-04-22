@@ -153,7 +153,7 @@ def game():
                 num = input("outside world, or in a laboratory?")
                 if num == "1":
                     print("-" * 50)
-                    print("the STEM aligned course you could have been in your premature mortal life would be..")
+                    print("the STEM aligned course you could have been in your premature mortal life would be..")   # data curator
                     print(courses[3]["specialty"])
                     print("You could have learned so much... \n Perhaps through these electives:")
                     print(f"Grade 11: {(courses[3]["grd11_subj"])}")
@@ -220,7 +220,7 @@ def game():
 
                 else:
                     print("-" * 50)
-                    print("the STEM aligned course you could have been in your premature mortal life would be..")
+                    print("the STEM aligned course you could have been in your premature mortal life would be..")  # database administrator
                     print(courses[5]["specialty"])
                     print("You could have learned so much... \n Perhaps through these electives:")
                     print(f"Grade 11: {(courses[5]["grd11_subj"])}")
@@ -257,7 +257,37 @@ def game():
                     print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..") # aligned for a DATABASE ADMINISTRATOR
                     print(courses[4]["specialty"])
-					
+
+            else:
+                print("-" * 50)
+                print("PRESS 1 FOR LARGE-SCALE ")
+                print("PRESS 2 FOR HIGH-VALUE ")
+                time.sleep(2)
+                num = input("large-scale or high-value planting?")
+                if num == "1":
+                    print("-" * 50)
+                    print("the STEM aligned course you could have been in your premature mortal life would be..")  # aligned for a AGRICULTURE
+                    print(courses[4]["specialty"])
+                else:
+                    print("-" * 50)
+                    print("the STEM aligned course you could have been in your premature mortal life would be..")  # aligned for a HORTICULTURE
+                    print(courses[4]["specialty"])
+
+        else:
+            print("-" * 50)
+            print("PRESS 1 FOR THEORETICAL ")
+            print("PRESS 2 FOR APPLIED ")
+            time.sleep(2)
+            num = input("theoretical investigation or applied knowledge?")
+            if num == "1":
+                print("-" * 50)
+                print("the STEM aligned course you could have been in your premature mortal life would be..")  # aligned for a THEORETICAL RESEARCHER
+                print(courses[4]["specialty"])
+            else:
+                print("-" * 50)
+                print("the STEM aligned course you could have been in your premature mortal life would be..")  # aligned for a APPLIED SCIENTIST
+                print(courses[4]["specialty"])
+
 
 
 
