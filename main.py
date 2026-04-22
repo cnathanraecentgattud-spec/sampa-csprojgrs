@@ -434,16 +434,16 @@ def background(name):  # settings function
             print("OPTION 2. 'just taking a walk along the avenue.")
             print("OPTION 3. 'i was reminded of my jog through the bus stop.")
             print("OPTION ■. 'i was given the opportunity to ■■■■■■ by the ■■■■■■■.")
-            if rebirth == "1":
+            if origin_story == "1":
                 time.sleep(1)
                 print("Admirable...your willingness to work everyday. Very well, this day consisted of a commute to work...")
-            elif rebirth == "2":
+            elif origin_story == "2":
                 time.sleep(1)
                 print("I have heard walks are peaceful...you were a peaceful person then\nInteresting...")
-            elif rebirth == "3":
+            elif origin_story == "3":
                 time.sleep(1)
                 print("Exercise makes a person well-rounded, they say\nYou truly are interesting...")
-            elif rebirth == "4":
+            elif origin_story == "4":
                 print("--error--")
             else:
                 print("Origin story generation unsuccessful")
