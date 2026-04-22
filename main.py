@@ -398,7 +398,7 @@ def background(name):  # settings function
     print("")
     print(f"DAWN: is {name} really my name?") # name changer
     time.sleep(1)
-    print(f"NOON: what put me in that mortal position?") # lore story (WIP)
+    print(f"NOON: what put me in this mortal position?") # lore story (WIP)
     time.sleep(1)
     print(f"DUSK: how did i end up here?") # origin story (WIP)
     time.sleep(2)
@@ -413,6 +413,15 @@ def background(name):  # settings function
         if name_change == "1":
             name = input("then by virtue of ■■■■, state your desired name: ")      # elif == 2 is within nathan's email, pls refer to him for direction - tnx
             print(f"welcome to the fork again, {name}.")
+
+    elif ray == "2":
+        print("...")
+        time.sleep(1)
+        print("You have had quite the reputation in your lifespan \n Though ■■■■ did not reveal such to be a positive or negative reputation...")
+        print("Most just go straight to purgatory...but some sneaky souls go through enough for this kind of reading")
+        print("Unfortunately, to find just this knowledge out was an unwise choice")
+        print("You could have learned much more \n But of course I won't say what...")
+
     elif ray == "3":
         time.sleep(1)
         origin_change = input("shall you wish to generate your new origin story then?")
@@ -421,22 +430,59 @@ def background(name):  # settings function
         if origin_change == "1":
             rebirth = input("select from the options given by the order.")
             print("the archives can't hold infinite documentation of every source ■■■■■■.")
-            print("OPTION A. 'i'm just commuting to work. nothing much.")
-            print("OPTION B. 'just taking a walk along the avenue.")
-            print("OPTION C. 'i was reminded of my jog through the bus stop.")
-            print("OPTION ■. 'i was given the opportunity to ■■■■■ by the ■■■■■■■.")
-
-
-
-    else: # this goes after ray == "2"
-        print("Invalid input \n Rebirth unsuccessful")
+            print("OPTION 1. 'i'm just commuting to work. nothing much.")
+            print("OPTION 2. 'just taking a walk along the avenue.")
+            print("OPTION 3. 'i was reminded of my jog through the bus stop.")
+            print("OPTION ■. 'i was given the opportunity to ■■■■■■ by the ■■■■■■■.")
+            if rebirth == "1":
+                time.sleep(1)
+                print("Admirable...your willingness to work everyday. Very well, this day consisted of a commute to work...")
+            elif rebirth == "2":
+                time.sleep(1)
+                print("I have heard walks are peaceful...you were a peaceful person then\nInteresting...")
+            elif rebirth == "3":
+                time.sleep(1)
+                print("Exercise makes a person well-rounded, they say\nYou truly are interesting...")
+            elif rebirth == "4":
+                print("--error--")
+            else:
+                print("Origin story generation unsuccessful")
+    else:
+        print("Invalid input \n Reminiscence unsuccessful")
 
 
 
 def end():
-    print("WIP")  # quitting mechanism (WIP)
-
-
+    print("I do not usually encounter people like you \nWho refuse a reading")
+    print(f"Very well...en route to purgatory in 3...")
+    time.sleep(2)
+    print("...")
+    print("Oh? We may have gotten an alert...")
+    print("The negative effects of humanity are severe, as you may know")
+    print("■■■■■■ believes it necessary to purge purgatory \nForgiveness hath been fortaken")
+    print("One question shall be to decide for you Eternal Paradise or Eternal Conscious Suffering")
+    time.sleep(2)
+    print("Dear user, as a respectable person of STEM...\nIs science an infinite source of knowledge, a life's journey, a mere tool for phenomena, or life itself?")
+    print("1. Infinite source knowledge")
+    print("2. Life's journey")
+    print("3. Tool for phenomena")
+    print("4. Understanding of the world")
+    print("5. No answer")
+    final_fate = input("For the final time...go on")
+    if final_fate == "1" or final_fate == "2" or final_fate == "3" or final_fate == "4":
+        time.sleep(2)
+        print("It is surprising that I say I am relieved")
+        time.sleep(1)
+        print("The answer would actually be all of the above with the exception of number 5 \n Science in itself is unexplainable, but as a person of STEM, \n Having an answer is already science \n Whether that be an educate guess or analytical decision \n ")
+        print("your fate shall be...")
+        time.sleep(2)
+        print("The eternal blessing of the pursuit of knowledge in everything STEM")
+        print("Being human may have ended for you, but your intellectual journey shall not. ")
+    elif final_fate == "5":
+        print("You dare to call yourself a person of STEM? \n How science ends is with a proper conclusion \n Conclusions are interpretations, and if you have none...\n there is no place for you \n In the eternal pursuit of knowledge")
+    else:
+        print("No answer...something ■■■■■■ truly despises")
+        print("My command is to leave you to wallow in the eternal knowledge \n of sacrificing your final fate.")
 import json  # the list of dictionaries that'll be transposed into a separate json file later on | to be coordinated with venize for more info - tnx
 
 courses = [
