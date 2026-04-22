@@ -252,11 +252,27 @@ def game():
                 if num == "1":
                     print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..") # aligned for a DATA CURATOR
-                    print(courses[4]["specialty"])
+                    print(courses[8]["specialty"])
+					print("You could have learned so much... \n Perhaps through these electives:")
+                    print(f"Grade 11: {(courses[8]["grd11_subj"])}")
+                    print(f"Grade 12: {(courses[8]["grd12_subj"])}")
+                    print(f"You could have given back to society so much... \n There were opportunities a plenty:")
+                    print(f"Careers: {(courses[8]["careers"])}")
+                    print(" ")
+                    print(
+                        "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
                 else:
                     print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..") # aligned for a DATABASE ADMINISTRATOR
-                    print(courses[4]["specialty"])
+                    print(courses[9]["specialty"])
+					print("You could have learned so much... \n Perhaps through these electives:")
+                    print(f"Grade 11: {(courses[9]["grd11_subj"])}")
+                    print(f"Grade 12: {(courses[9]["grd12_subj"])}")
+                    print(f"You could have given back to society so much... \n There were opportunities a plenty:")
+                    print(f"Careers: {(courses[9]["careers"])}")
+                    print(" ")
+                    print(
+                        "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
 
             else:
                 print("-" * 50)
@@ -267,11 +283,27 @@ def game():
                 if num == "1":
                     print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..")  # aligned for a AGRICULTURE
-                    print(courses[4]["specialty"])
+                    print(courses[10]["specialty"])
+					print("You could have learned so much... \n Perhaps through these electives:")
+                    print(f"Grade 11: {(courses[10]["grd11_subj"])}")
+                    print(f"Grade 12: {(courses[10]["grd12_subj"])}")
+                    print(f"You could have given back to society so much... \n There were opportunities a plenty:")
+                    print(f"Careers: {(courses[10]["careers"])}")
+                    print(" ")
+                    print(
+                        "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
                 else:
                     print("-" * 50)
                     print("the STEM aligned course you could have been in your premature mortal life would be..")  # aligned for a HORTICULTURE
-                    print(courses[4]["specialty"])
+                    print(courses[11]["specialty"])
+					print("You could have learned so much... \n Perhaps through these electives:")
+                    print(f"Grade 11: {(courses[11]["grd11_subj"])}")
+                    print(f"Grade 12: {(courses[11]["grd12_subj"])}")
+                    print(f"You could have given back to society so much... \n There were opportunities a plenty:")
+                    print(f"Careers: {(courses[11]["careers"])}")
+                    print(" ")
+                    print(
+                        "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
 
         else:
             print("-" * 50)
@@ -282,11 +314,27 @@ def game():
             if num == "1":
                 print("-" * 50)
                 print("the STEM aligned course you could have been in your premature mortal life would be..")  # aligned for a THEORETICAL RESEARCHER
-                print(courses[4]["specialty"])
+                print(courses[12]["specialty"])
+				print("You could have learned so much... \n Perhaps through these electives:")
+                    print(f"Grade 11: {(courses[12]["grd11_subj"])}")
+                    print(f"Grade 12: {(courses[12]["grd12_subj"])}")
+                    print(f"You could have given back to society so much... \n There were opportunities a plenty:")
+                    print(f"Careers: {(courses[12]["careers"])}")
+                    print(" ")
+                    print(
+                        "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
             else:
                 print("-" * 50)
                 print("the STEM aligned course you could have been in your premature mortal life would be..")  # aligned for a APPLIED SCIENTIST
-                print(courses[4]["specialty"])
+                print(courses[13]["specialty"])
+				print("You could have learned so much... \n Perhaps through these electives:")
+                    print(f"Grade 11: {(courses[13]["grd11_subj"])}")
+                    print(f"Grade 12: {(courses[13]["grd12_subj"])}")
+                    print(f"You could have given back to society so much... \n There were opportunities a plenty:")
+                    print(f"Careers: {(courses[13]["careers"])}")
+                    print(" ")
+                    print(
+                        "It certainly is a wither... \n Your mortal self truly was a special one... \n So many possibilities...wasted")
 
 
 
